@@ -1,0 +1,9 @@
+@use '../../assets/variables.scss' as *;
+
+.navbar {
+    color: $secondary-color;
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+
+}

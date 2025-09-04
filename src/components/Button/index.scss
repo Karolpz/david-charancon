@@ -1,0 +1,18 @@
+@use 'sass:color';
+@use '../../assets/variables.scss' as *;
+
+.btn {
+    background-color: $accent-color;
+    color: whitesmoke;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    width: fit-content;
+
+    &:hover {
+        background-color: color.scale($accent-color, $lightness: -10%);
+    }
+}

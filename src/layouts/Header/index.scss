@@ -1,0 +1,9 @@
+@use '../../assets/variables.scss' as *;
+
+.header {
+    background-color: $primary-color;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: $padding-section-xs;
+}

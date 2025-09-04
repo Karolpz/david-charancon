@@ -1,0 +1,13 @@
+//GERERAL\\
+@use './assets/normalize.scss';
+@use './assets/variables.scss';
+@use './assets/mixins.scss';
+@use './assets/global.scss';
+
+//LAYOUTS\\
+@use './layouts/Header/' as *;
+@use './layouts/Hero/' as *;
+
+//COMPONENTS\\
+@use './components/NavBar/' as *;
+@use './components/Button/' as *;

@@ -1,0 +1,23 @@
+@use '../../assets/variables.scss' as *;
+
+.hero {
+    background-color: $secondary-color;
+    padding: $padding-section;
+
+    &--text {
+        color: $primary-color;
+        text-align: justify;
+    }
+
+    & .col {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 1.5rem;
+    }
+
+    & .row {
+        display: flex;
+        gap: 2rem;
+    }
+}

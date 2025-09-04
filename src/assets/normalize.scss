@@ -1,0 +1,106 @@
+/* normalize.scss - version moderne */
+
+/* 1. Box sizing */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+html {
+    font-size: 62.5%;
+
+    // Tablette
+    @media (max-width: 768px) {
+        font-size: 56.25%;
+    }
+
+    // Mobile
+    @media (max-width: 480px) {
+        font-size: 50%;
+    }
+}
+
+/* 2. Remove default margin */
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+figure,
+blockquote,
+dl,
+dd {
+    margin: 0;
+}
+
+/* 3. Set core body defaults */
+body {
+    min-height: 100vh;
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+/* 4. Remove list styles on ul, ol */
+ul,
+ol {
+    padding: 0;
+    list-style: none;
+}
+
+/* 5. Remove default link styles */
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* 6. Remove default button styles */
+button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font: inherit;
+}
+
+/* 7. Remove form input border and outline */
+input,
+textarea,
+select {
+    border: none;
+    outline: none;
+    font: inherit;
+}
+
+/* 8. Images responsive */
+img,
+picture {
+    max-width: 100%;
+    display: block;
+}
+
+/* 9. Tables basics */
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* 10. Inherit fonts for headings */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: inherit;
+    font-family: inherit;
+}
+
+/* 11. Misc */
+hr {
+    border: none;
+    height: 1px;
+    background-color: #ccc;
+}

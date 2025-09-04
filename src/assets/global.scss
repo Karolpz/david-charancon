@@ -1,0 +1,16 @@
+@use './variables.scss' as *;
+
+* {
+    font-family: 'Montserrat', sans-serif;
+    font-size: $size16;
+    line-height: 1.6;
+}
+h1 {
+    font-size: $size36;
+}
+h2 {
+    font-size: $size24;
+}
+h3 {
+    font-size: $size20;
+}
