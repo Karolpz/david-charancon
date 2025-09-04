@@ -1,0 +1,15 @@
+@use '../../assets/variables.scss' as *;
+@use '../../assets/mixins.scss' as *;
+
+.inspirations {
+    background-color: $primary-color;
+    padding: $padding-section-lg;
+    color: $secondary-color;
+    text-align: center;
+
+        & span {
+            font-size: $size32;
+            @include underline-title;
+        }
+
+}

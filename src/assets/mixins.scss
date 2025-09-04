@@ -1,0 +1,7 @@
+@use 'variables' as *;
+
+@mixin underline-title($color: $accent-color, $offset: 1rem) {
+    text-decoration: underline;
+    text-decoration-color: $color;
+    text-underline-offset: $offset;
+}

@@ -1,0 +1,24 @@
+@use '../../assets/variables.scss' as *;
+
+.quote {
+    font-style: italic;
+    text-align: center;
+    padding: $padding-section-lg;
+    color: $primary-color;
+
+    & blockquote {
+        font-size: $size30;
+    }
+
+    & span {
+        font-size: $size36;
+        color: $accent-color;
+        font-weight: bold;
+    }
+
+    &--movie {
+        font-size: $size24;
+        font-weight: bold;
+        text-align: right;
+    }
+}

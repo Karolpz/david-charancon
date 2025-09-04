@@ -7,6 +7,9 @@
 //LAYOUTS\\
 @use './layouts/Header/' as *;
 @use './layouts/Hero/' as *;
+@use './layouts/Projects/' as *;
+@use './layouts/Quote/' as *;
+@use './layouts/Inspirations/' as *;
 
 //COMPONENTS\\
 @use './components/NavBar/' as *;

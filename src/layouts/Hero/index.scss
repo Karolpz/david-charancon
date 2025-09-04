@@ -1,23 +1,29 @@
 @use '../../assets/variables.scss' as *;
+@use '../../assets/mixins.scss' as *;
 
 .hero {
     background-color: $secondary-color;
-    padding: $padding-section;
+    padding: $padding-section-lg;
+    color: $primary-color;
 
     &--text {
-        color: $primary-color;
         text-align: justify;
     }
 
     & .col {
         display: flex;
         flex-direction: column;
-        justify-content: center;
+        justify-content: space-around;
         gap: 1.5rem;
     }
 
     & .row {
         display: flex;
         gap: 2rem;
+    }
+
+    & span {
+        font-size: $size36;
+        @include underline-title;
     }
 }
