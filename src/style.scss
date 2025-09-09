@@ -10,7 +10,9 @@
 @use './layouts/Projects/' as *;
 @use './layouts/Quote/' as *;
 @use './layouts/Inspirations/' as *;
+@use './layouts/Form/' as *;
 
 //COMPONENTS\\
 @use './components/NavBar/' as *;
 @use './components/Button/' as *;
+@use './components/Field/' as *;

@@ -4,6 +4,7 @@ import Hero from '../../layouts/Hero'
 import Projects from '../../layouts/Projects'
 import Quote from '../../layouts/Quote'
 import Inspirations from '../../layouts/Inspirations'
+import Form from '../../layouts/Form'
 
 const Home = () => {
   return (
@@ -14,6 +15,7 @@ const Home = () => {
         <Projects />
         <Quote />
         <Inspirations />
+        <Form />
     </main>
       </>
   )

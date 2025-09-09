@@ -1,0 +1,51 @@
+@use '../../assets/variables.scss' as *;
+@use '../../assets/mixins.scss' as *;
+
+.form {
+    background-color: $secondary-color;
+    color : $primary-color;
+    display: flex;
+    flex-direction: column;
+    padding: $padding-section-lg;
+
+    & span {
+            font-size: $size32;
+            @include underline-title;
+        }
+
+    &__title {
+        text-align: center;
+    }
+
+    & p {
+        text-align: center;
+    }
+
+    & .row {
+        font-weight: bold;
+        display: flex;
+        align-items: center;
+        gap: 20px;
+
+        @media (max-width : 1024px) {
+            flex-direction: column;
+        }
+    }
+
+    & .col {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    & .form__content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+
+        @media (max-width : 1024px) {
+            flex-direction: column;
+        }
+    }
+}
