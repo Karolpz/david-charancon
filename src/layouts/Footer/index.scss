@@ -1,0 +1,44 @@
+@use '../../assets/variables.scss' as *;
+@use 'sass:color';
+.footer {
+    background-color: $primary-color;
+    color: $secondary-color;
+    display: flex;
+    align-items: center;
+    padding: $padding-section-xs;
+    justify-content: space-between;
+
+
+    &__location {
+        display: flex;
+        align-items: flex-end;
+        flex-basis: 33%;
+        
+        & img {
+            height: 30px;
+        }
+    }
+
+    &--copyright {
+        flex-basis: 33%;
+    }
+
+    &__socials {
+        display: flex;
+        flex-direction: column;
+        flex-basis: 33%;
+        align-items: center;
+        align-content: flex-end;
+        flex-wrap: wrap;
+
+        & img {
+            height: 40px;
+            width: 40px;
+        }
+
+        &--links {
+            display: flex;
+            gap: 15px;
+        }
+    }
+}

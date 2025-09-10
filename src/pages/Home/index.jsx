@@ -5,19 +5,21 @@ import Projects from '../../layouts/Projects'
 import Quote from '../../layouts/Quote'
 import Inspirations from '../../layouts/Inspirations'
 import Form from '../../layouts/Form'
+import Footer from '../../layouts/Footer'
 
 const Home = () => {
   return (
     <>
-        <Header />
-    <main>
+      <Header />
+      <main>
         <Hero />
         <Projects />
         <Quote />
         <Inspirations />
         <Form />
-    </main>
-      </>
+      </main>
+      <Footer />
+    </>
   )
 }
 

@@ -2,6 +2,7 @@ import React, { useState, useRef } from 'react'
 import Field, { FIELD_TYPES } from '../../components/Field'
 import emailjs from "emailjs-com"
 import Button from '../../components/Button'
+import { Turnstile } from '@marsidev/react-turnstile'
 
 const Form = () => {
     const [messageStatus, setMessageStatus] = useState('')
@@ -14,17 +15,13 @@ const Form = () => {
     const [captchaToken, setCaptchaToken] = useState(null)
     const formReset = useRef()
     const captchaRef = useRef()
-    const [showCaptcha, setShowCaptcha] = useState(false)
+
 
     const handleChange = (event) => {
         setFormData({
             ...formData,
             [event.target.name]: event.target.value
         });
-    }
-
-    const handleFocusForm = () => {
-        if (!showCaptcha) setShowCaptcha(true)
     }
 
     const handleSubmit = (event) => {
@@ -37,7 +34,6 @@ const Form = () => {
 
         const dataToSend = {
             ...formData,
-            'h-captcha-response': captchaToken
         }
 
         emailjs.init('KUgA4JMsoQ82S_jn-')
@@ -62,7 +58,7 @@ const Form = () => {
         <section className='form'>
             <h2 className='form__title'>ME CONTA<span>CTER</span></h2>
             <p className='form__subtitle'>Une idée, un projet, ou juste envie de discuter ? Écris-moi, je réponds toujours avec plaisir.</p>
-            <form className='form__content' onSubmit={handleSubmit} method="POST" ref={formReset} onFocus={handleFocusForm}>
+            <form className='form__content' onSubmit={handleSubmit} method="POST" ref={formReset}>
                 <div className="row">
                     <div className="col">
                         <Field
@@ -104,13 +100,12 @@ const Form = () => {
                         />
                     </div>
                 </div>
-                {showCaptcha &&
-                    <div
-                        className="cf-turnstile"
-                        data-sitekey="0x4AAAAAAB0Ojte1ssVTcVWR"
-                        data-callback={(token) => setCaptchaToken(token)}
-                    ></div>
-                }
+
+                <Turnstile
+                    siteKey='0x4AAAAAAB0Ojte1ssVTcVWR'
+                    onSuccess={setCaptchaToken}
+                    className='form__content--captcha' />
+
                 <p className='form__content--message'>{messageStatus}</p>
                 <Button
                     text="Envoyer"

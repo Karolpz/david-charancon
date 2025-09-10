@@ -17,8 +17,10 @@
         text-align: center;
     }
 
-    & p {
+    &__subtitle {
         text-align: center;
+        font-size: $size20;
+        margin: $margin-bottom-section;
     }
 
     & .row {
@@ -43,6 +45,13 @@
         flex-direction: column;
         align-items: center;
 
+        &--captcha {
+            margin: $margin-bottom-section;
+        }
+
+        &--submit {
+            margin: $margin-top-section;
+        }
 
         @media (max-width : 1024px) {
             flex-direction: column;
