@@ -4,7 +4,7 @@ import Button from '../../components/Button'
 
 const Hero = () => {
     return (
-        <section className="hero">
+        <section className="hero" id='about'>
             <div className="row">
                 <img src={Portrait} alt="Portrait de David Charancon" className="portrait" />
                 <div className="col">

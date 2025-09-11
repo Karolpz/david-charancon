@@ -55,7 +55,7 @@ const Form = () => {
     }
 
     return (
-        <section className='form'>
+        <section className='form' id='contact'>
             <h2 className='form__title'>ME CONTA<span>CTER</span></h2>
             <p className='form__subtitle'>Une idée, un projet, ou juste envie de discuter ? Écris-moi, je réponds toujours avec plaisir.</p>
             <form className='form__content' onSubmit={handleSubmit} method="POST" ref={formReset}>

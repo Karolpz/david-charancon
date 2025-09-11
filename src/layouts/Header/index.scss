@@ -6,4 +6,12 @@
     justify-content: space-between;
     align-items: center;
     padding: $padding-section-xxs;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    box-shadow: var(--shd, 0 0 5px rgba(0, 0, 0, .5));;
+
+    & img {
+        height: 70px;
+    }
 }
