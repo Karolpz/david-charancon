@@ -9,7 +9,7 @@
     position: fixed;
     width: 100%;
     top: 0;
-    box-shadow: var(--shd, 0 0 5px rgba(0, 0, 0, .5));;
+    box-shadow: $box-shadow;
 
     & img {
         height: 70px;

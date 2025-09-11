@@ -4,10 +4,14 @@
 @use './assets/mixins.scss';
 @use './assets/global.scss';
 
+//PAGES\\
+@use './pages/Home/' as *;
+@use './pages/ProjectDetail/' as *;
+
 //LAYOUTS\\
 @use './layouts/Header/' as *;
 @use './layouts/Hero/' as *;
-@use './layouts/Projects/' as *;
+@use './layouts/ProjectList/' as *;
 @use './layouts/Quote/' as *;
 @use './layouts/Inspirations/' as *;
 @use './layouts/Form/' as *;
@@ -17,3 +21,4 @@
 @use './components/NavBar/' as *;
 @use './components/Button/' as *;
 @use './components/Field/' as *;
+@use './components/InspirationItem/' as *;

@@ -1,0 +1,23 @@
+[
+    {
+        "id": 1,
+        "image": "/images/film-new-york.webp",
+        "image_description": "Image du film Once Upon a Time in America",
+        "title": "Once Upon a Time in America",
+        "description" :"« Once Upon a Time in America » raconte une histoire sur plusieurs décennies, et j’admire la façon dont chaque détail visuel et musical crée une atmosphère unique. La construction non linéaire et l’évolution des personnages me montrent comment jouer avec le temps et les émotions pour rendre une narration épique et immersive. Chaque choix esthétique me donne envie de soigner mes propres récits pour qu’ils aient un impact fort et mémorable."
+    },
+    {
+        "id": 2,
+        "image": "/images/genre-film-noir.webp",
+        "image_description": "Illustration du genre film noir",
+        "title": "Films noirs",
+        "description" :"Les films noirs m’inspirent par leur ambiance sombre et leurs personnages ambivalents. J’admire la manière dont l’ombre et la lumière, le cadrage et la musique construisent une tension constante et une atmosphère unique. Ces films me montrent comment raconter des histoires où chaque détail visuel ou sonore renforce le suspense et les émotions, et m’encouragent à créer des récits à la fois stylisés et immersifs."
+    },
+    {
+        "id": 3,
+        "image": "/images/portrait-david-lynch.webp",
+        "image_description": "Portrait du réalisateur David Lynch",
+        "title": "David Lynch",
+        "description" :"David Lynch m’inspire par son univers étrange et onirique, où chaque détail visuel, sonore et narratif crée une atmosphère unique. J’admire la façon dont il mélange le quotidien et le fantastique pour surprendre et immerger le spectateur. Ses films me montrent comment jouer avec l’inattendu et l’absurde pour créer des récits mémorables et profondément immersifs."
+    }
+]

@@ -7,9 +7,12 @@
     color: $secondary-color;
     text-align: center;
 
-        & span {
-            font-size: $size32;
-            @include underline-title;
-        }
+    & span {
+        font-size: $size32;
+        @include underline-title;
+    }
 
+    &__content {
+        padding: $padding-section-lg;
+    }
 }
