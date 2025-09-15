@@ -2,11 +2,14 @@
 
 .navbar {
     color: $secondary-color;
-    display: flex;
-    gap: 2rem;
-    align-items: center;
 
-    &__links:hover {
+    ul {
+        display: flex;
+        gap: 2rem;
+        align-items: center;
+    }
+
+    & li:hover {
         color: $accent-color;
         transition: color 0.3s ease;
         text-decoration: underline;

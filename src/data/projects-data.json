@@ -1,43 +1,86 @@
 [
-    {
-        "id": 1,
-        "url":"https://www.youtube.com/embed/UwjoTrOu0Jc?si=eQ6pExwhT_s-yaZP",
-        "title":"48H FILM CINEMED 2025 - TEASER",
-        "image": "/projects/48h-film-cinemed.webp",
-        "image_description": "Image du teaser du film 48H FILM CINEMED 2025",
-        "description" :"Teaser du film réalisé en 48h dans le cadre du festival CINEMED 2025 à Montpellier. J'ai occupé le poste de réalisateur et monteur pour ce projet collaboratif où j'ai pu mettre en pratique mes compétences en gestion de temps et en créativité sous pression.",
-        "role": "Réalisateur, monteur",
-        "date": "2025-09-03"
-    },
+  {
+    "id": 1,
+    "url":"https://www.youtube.com/embed/UwjoTrOu0Jc?si=eQ6pExwhT_s-yaZP",
+    "title":"48H FILM CINEMED 2025 - TEASER",
+    "image": "/projects/48h-film-cinemed.webp",
+    "image_description": "Image du teaser du film 48H FILM CINEMED 2025",
+    "description":"Teaser du film réalisé en 48h dans le cadre du festival CINEMED 2025 à Montpellier. J'ai occupé le poste de réalisateur et monteur pour ce projet collaboratif où j'ai pu mettre en pratique mes compétences en gestion de temps et en créativité sous pression.",
+    "role": "Réalisateur, monteur",
+    "date": "2025-09-03"
+  },
+  {
+    "id": 2,
+    "url":"https://www.youtube.com/embed/ZTVKY1xnUdY",
+    "title":"PROM NIGHT - 48H FILM CINEMED PROJECTION",
+    "image": "/projects/promnight.webp",
+    "image_description": "Image de PROJECTION du film PROM NIGHT",
+    "description":"Bande-annonce du court-métrage 'L'Échappée', un projet personnel où j'ai exploré des thèmes de liberté et de découverte. J'ai réalisé, écrit et monté ce film, en mettant l'accent sur une narration visuelle forte et une atmosphère immersive.",
+    "role": "Réalisateur",
+    "date": "2024-10-17"
+  },
+  {
+    "id": 3,
+    "url":"https://www.youtube.com/embed/xPXYfi1I2IA?si=7aLuljH7aaSf1Oec",
+    "title":"ENFIN BREF - THE PROMISED NEVERLAND",
+    "image": "/projects/the-promised-neverland.webp",
+    "image_description": "Image du film the promised neverland",
+    "description":"Extrait du documentaire 'Les Voix du Silence', où j'ai travaillé en tant que réalisateur et monteur. Ce projet m'a permis d'explorer des histoires humaines profondes et de développer mes compétences en storytelling documentaire.",
+    "role": "Assistant réalisateur",
+    "date": "2024-02-21"
+  },
+  {
+    "id": 4,
+    "url":"https://www.youtube.com/embed/Rb16R1xHFyc",
+    "title":"MONTROSE AVENUE",
+    "image": "/projects/montrose-avenue.webp",
+    "image_description": "Image de la bande-annonce du film Montrose Avenue",
+    "description":"Bande-annonce du court-métrage 'L'Échappée', un projet personnel où j'ai exploré des thèmes de liberté et de découverte. J'ai réalisé, écrit et monté ce film, en mettant l'accent sur une narration visuelle forte et une atmosphère immersive.",
+    "role": "Réalisateur, scénariste, monteur",
+    "date": "2023-11-05"
+  },
 
-    {
-        "id": 2,
-        "url":"https://www.youtube.com/watch?v=ZTVKY1xnUdY",
-        "title":"PROM NIGHT - 48H FILM CINEMED PROJECTION",
-        "image": "/projects/promnight.webp",
-        "image_description": "Image de PROJECTION du film PROM NIGHT",
-        "description" :"Bande-annonce du court-métrage 'L'Échappée', un projet personnel où j'ai exploré des thèmes de liberté et de découverte. J'ai réalisé, écrit et monté ce film, en mettant l'accent sur une narration visuelle forte et une atmosphère immersive.",
-        "role": "Réalisateur",
-        "date": "2024-10-17"
-    },
-    {
-        "id": 3,
-        "url":"https://www.youtube.com/watch?v=fJp6C7AgwKg",
-        "title":"IT TAKE A CERTAIN TIME",
-        "image": "/projects/it-take-a-certain-time.webp",
-        "image_description": "Image du film It Take A Certain Time",
-        "description" :"Extrait du documentaire 'Les Voix du Silence', où j'ai travaillé en tant que réalisateur et monteur. Ce projet m'a permis d'explorer des histoires humaines profondes et de développer mes compétences en storytelling documentaire.",
-        "role": "Assistant réalisateur",
-        "date": "2024-02-21"
-    },
-    {
-        "id": 4,
-        "url":"https://www.youtube.com/watch?v=Rb16R1xHFyc",
-        "title":"MONTROSE AVENUE",
-        "image": "/projects/montrose-avenue.webp",
-        "image_description": "Image de la bande-annonce du film L'Échappée",
-        "description" :"Bande-annonce du court-métrage 'L'Échappée', un projet personnel où j'ai exploré des thèmes de liberté et de découverte. J'ai réalisé, écrit et monté ce film, en mettant l'accent sur une narration visuelle forte et une atmosphère immersive.",
-        "role": "Réalisateur, scénariste, monteur",
-        "date": "2023-11-05"
-    }
+  {
+    "id": 5,
+    "url":"https://www.youtube.com/embed/U_EAEVx_oBw?si=U-2xmJTFbPz-2ZdH",
+    "title":"SOMETHING ABOUT US",
+    "image": "/projects/something-about-us.webp",
+    "image_description": "Image de la bande-annonce du film something about us",
+    "description":"Bande-annonce du court-métrage 'L'Échappée', un projet personnel où j'ai exploré des thèmes de liberté et de découverte. J'ai réalisé, écrit et monté ce film, en mettant l'accent sur une narration visuelle forte et une atmosphère immersive.",
+    "role": "Réalisateur, scénariste, monteur",
+    "date": "2023-11-05"
+  },
+
+  {
+    "id": 6,
+    "url":"https://www.youtube.com/embed/qwet_g80JKg?si=AN8tzmDYsDuy24Yp",
+    "title":"PORTRAIT ANAELLE",
+    "image": "/projects/portrait-anaelle.webp",
+    "image_description": "Image de la bande-annonce du film portrait anaelle",
+    "description":"Bande-annonce du court-métrage 'L'Échappée', un projet personnel où j'ai exploré des thèmes de liberté et de découverte. J'ai réalisé, écrit et monté ce film, en mettant l'accent sur une narration visuelle forte et une atmosphère immersive.",
+    "role": "Réalisateur, scénariste, monteur",
+    "date": "2023-11-05"
+  },
+
+  {
+    "id": 7,
+    "url":"https://www.youtube.com/embed/Dlc0IkGIj3E?si=AfDtWeeW0pMKG1_WJ",
+    "title":"LONG NIGHT OF A LONELY MAN",
+    "image": "/projects/long-night-of-lonely-man.webp",
+    "image_description": "Image de la bande-annonce du film long night of a lonely man",
+    "description":"Bande-annonce du court-métrage 'L'Échappée', un projet personnel où j'ai exploré des thèmes de liberté et de découverte. J'ai réalisé, écrit et monté ce film, en mettant l'accent sur une narration visuelle forte et une atmosphère immersive.",
+    "role": "Réalisateur, scénariste, monteur",
+    "date": "2023-11-05"
+  },
+
+  {
+    "id": 8,
+    "url":"https://www.youtube.com/embed/VXJG4_11PKg?si=rq4Xu3UqQ0w4MWRA",
+    "title":"IL ETAIT UNE FOIS A PEROLS",
+    "image": "/projects/il-etait-une-fois-a-perols.webp",
+    "image_description": "Image de la bande-annonce du film Il était une fois à Pérols",
+    "description":"Bande-annonce du court-métrage 'L'Échappée', un projet personnel où j'ai exploré des thèmes de liberté et de découverte. J'ai réalisé, écrit et monté ce film, en mettant l'accent sur une narration visuelle forte et une atmosphère immersive.",
+    "role": "Réalisateur, scénariste, monteur",
+    "date": "2023-11-05"
+  }
 ]

@@ -1,15 +1,16 @@
-import React from 'react'
+import { HashLink } from 'react-router-hash-link';
 
 const NavBar = ({ links }) => {
   return (
     <nav className="navbar">
-      {links.map((link, index) => (
-        <a key={index} href={link.href} className='navbar__links'>
-          {link.item}
-        </a>
-      ))}
+      <ul>
+        {links.map((link, index) => (
+          <li key={index}>
+            <HashLink smooth to={link.url}>{link.item}</HashLink>
+          </li>
+        ))}
+      </ul>
     </nav>
   )
 }
-
-export default NavBar
+export default NavBar;

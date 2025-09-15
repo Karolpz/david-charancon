@@ -1,0 +1,44 @@
+@use '../../assets/variables.scss' as *;
+
+.card {
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+
+    &__img {
+        height: 500px;
+        width: 100%;
+        object-fit: cover;
+        z-index: 1;
+        transition: all 0.3s ease-in-out;
+        display: block;
+    }
+
+    &__title {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        visibility: hidden;
+        opacity: 0;
+        transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+        color: $secondary-color;
+        font-size: $size30;
+        font-weight: bold;
+        z-index: 2;
+    }
+
+    &:hover {
+        .card__img {
+            opacity: 0.5;
+            box-shadow: $box-shadow;
+        }
+
+        .card__title {
+            visibility: visible;
+            opacity: 1;
+            transform: translate(-50%, -50%) scale(1.05);
+        }
+    }
+}
