@@ -6,7 +6,7 @@ import Footer from './layouts/Footer'
 
 function App() {
   return (
-    <HashRouter basename="/david-charancon/"> 
+    <HashRouter>
       <Header />
       <main>
         <Router />
