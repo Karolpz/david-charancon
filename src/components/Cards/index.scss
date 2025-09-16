@@ -6,12 +6,20 @@
     cursor: pointer;
 
     &__img {
-        height: 500px;
+        height: 600px;
         width: 100%;
         object-fit: cover;
         z-index: 1;
         transition: all 0.3s ease-in-out;
         display: block;
+
+        @media (max-width: 1024px){
+            height: 500px;
+        }
+        @media (max-width: 768px){
+            height: 250px;
+            opacity: 0.8;
+        }
     }
 
     &__title {
@@ -27,6 +35,12 @@
         font-size: $size30;
         font-weight: bold;
         z-index: 2;
+
+        @media (max-width: 768px){
+            font-size: $size24;
+            visibility: visible;
+            opacity: 1;
+        }
     }
 
     &:hover {

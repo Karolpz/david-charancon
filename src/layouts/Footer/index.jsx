@@ -9,7 +9,7 @@ const Footer = () => {
     return (
         <footer className='footer'>
             <div className="footer__location">
-                <img src={Location} alt="logo localisation" />
+                <img src={Location} alt="logo localisation" className="footer__location--logo" />
                 <p>Paris, France</p>
             </div>
             <p className='footer__copyright'>© 2025 Caroline Lopez. All rights reserved.</p>

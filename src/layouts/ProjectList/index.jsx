@@ -13,7 +13,6 @@ const ProjectList = () => {
           id = {project.id}
           title = {project.title}
           image = {project.image}
-          link = {project.link}
           title_image= {project.image_description}/>
         ))}
       </div>

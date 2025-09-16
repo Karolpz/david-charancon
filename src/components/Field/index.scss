@@ -9,10 +9,18 @@
     height: 30px;
     width: 300px;
 
+    @media(max-width: 768px) {
+        width: 250px;
+    }
+
 }
 
 .fieldTextarea textarea {
     width: 450px;
     padding: 0 5px;
+
+    @media(max-width: 768px) {
+        width: 350px;
+    }
 
 }

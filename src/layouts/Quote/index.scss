@@ -6,6 +6,10 @@
     padding: $padding-section-lg;
     color: $primary-color;
 
+    @media(max-width: 768px) {
+        padding: $padding-section;
+    }
+
     & blockquote {
         font-size: $size30;
     }

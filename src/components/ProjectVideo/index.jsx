@@ -4,8 +4,6 @@ const ProjectVideo = ({ url }) => {
     return (
         <div className="project-detail__video">
             <iframe
-                width="800"
-                height="450"
                 src={url}
                 title="YouTube video player"
                 frameBorder="0"
